@@ -1,0 +1,17 @@
+========================================
+⚠️  EXECUTION MODE ARMED — FULL USER PERMISSIONS
+
+You> using the ssh exec tool ssh into 10.10.10.60
+ERROR: ssh_exec missing required argument: host
+ERROR: ssh_exec missing required argument: host
+Traceback (most recent call last):
+  File "/home/acme-admin/python/netdiag_linux_exec2.py", line 336, in <module>
+    chat()
+  File "/home/acme-admin/python/netdiag_linux_exec2.py", line 317, in chat
+    model_loop(history)
+  File "/home/acme-admin/python/netdiag_linux_exec2.py", line 287, in model_loop
+    output = run_tool(call)
+             ^^^^^^^^^^^^^^
+  File "/home/acme-admin/python/netdiag_linux_exec2.py", line 241, in run_tool
+    user, pwd = get_valid_ssh_credentials(args["host"])
+                                          ~~~~^^^^^^^^
